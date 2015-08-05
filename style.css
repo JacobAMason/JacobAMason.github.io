@@ -1,0 +1,44 @@
+/* Styles go here */
+/* Much help thanks to: http://www.williamghelfi.com/blog/2013/08/04/bootstrap-in-practice-a-landing-page/  */
+
+/* https://css-tricks.com/perfect-full-page-background-image/ */
+html {
+  background: url(https://static.pexels.com/photos/4765/road-street-forest-fog.jpg) no-repeat center center fixed; 
+  background-color: rgb(200, 240, 255);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+p, div {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding: 50px;
+  background: transparent;
+}
+
+.margin-base-vertical {
+  margin: 20px 0;
+}
+
+.panel {
+  background-color: #FFFFFF;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.social-media-img {
+  max-height: 4em;
+  margin-bottom: 1em;
+}
